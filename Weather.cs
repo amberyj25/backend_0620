@@ -1,12 +1,13 @@
 namespace backend;
 
+
 public class Weather
 {
-    public DateOnly Date { get; set; }
+    public string Title { get; set; }
 
-    public int TemperatureC { get; set; }
+    public int Num { get; set; }
 
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    public int Count { get; set; }
 
-    public string? Summary { get; set; }
-}
+    public int Text { get; set; }
+};
